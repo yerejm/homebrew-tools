@@ -10,7 +10,7 @@ class Ttt < Formula
     depends_on :python3
 
     def install
-        ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python3.5/site-packages"
+        ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python#{version}/site-packages"
 
         system "python3", "setup.py", "install", "--prefix=#{libexec}"
         bin.install Dir[libexec/"bin/ttt"]
