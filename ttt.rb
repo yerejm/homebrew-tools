@@ -7,7 +7,7 @@ class Ttt < Formula
 
     bottle :unneeded
 
-    depends_on :python3
+    depends_on "python3"
 
     def install
         pyver = Language::Python.major_minor_version "python3"
