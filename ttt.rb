@@ -1,8 +1,8 @@
 class Ttt < Formula
     desc "Watch, build, and test a cmake-based source tree"
     homepage "https://github.com/yerejm/ttt"
-    url "https://github.com/yerejm/ttt/archive/0.5.0.tar.gz"
-    sha256 "4aadfb4d0ade17b82c1fa8060f88e207302c61e1b036206b162142a1a75c529c"
+    url "https://github.com/yerejm/ttt/archive/0.5.1.tar.gz"
+    sha256 "87692d59ff4097217a2bbfe292c43c94e39b954bae79caf9ce0fd31ebcc27807"
     head "https://github.com/yerejm/ttt.git"
 
     bottle :unneeded
