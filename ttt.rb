@@ -3,10 +3,11 @@ class Ttt < Formula
 
   desc "Watch, build, and test a cmake-based source tree"
   homepage "https://github.com/yerejm/ttt"
-  url "https://github.com/yerejm/ttt/archive/0.5.1.tar.gz"
-  sha256 "d6bbe7de912a3f46b87f82a464133617eb8709cc8cc03b8ef3dad568195fa184"
+  url "https://github.com/yerejm/ttt/archive/0.6.0.tar.gz"
+  sha256 "bfd9b5ee84e7932b7aa07048b53f00a9770711d3c9bfc28e01892aa4a86c3d8c"
   license "ISCL"
   head "https://github.com/yerejm/ttt.git"
+  revision 1
 
   livecheck do
     url :stable
@@ -101,6 +102,6 @@ class Ttt < Formula
   end
 
   test do
-    assert_equal "0.5.1", shell_output("#{bin}/ttt --version").strip
+    assert_equal "ttt #{version.to_s}", shell_output("#{bin}/ttt --version").strip
   end
 end
