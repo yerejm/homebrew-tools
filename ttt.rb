@@ -3,8 +3,8 @@ class Ttt < Formula
 
   desc "Watch, build, and test a cmake-based source tree"
   homepage "https://github.com/yerejm/ttt"
-  url "https://github.com/yerejm/ttt/archive/0.6.0.tar.gz"
-  sha256 "bfd9b5ee84e7932b7aa07048b53f00a9770711d3c9bfc28e01892aa4a86c3d8c"
+  url "https://github.com/yerejm/ttt/archive/0.7.0.tar.gz"
+  sha256 "2a84fb969c46276d2ed29674a0f829c06519c8ac55ce152ee8819a2a3b363db5"
   license "ISCL"
   head "https://github.com/yerejm/ttt.git"
   revision 1
