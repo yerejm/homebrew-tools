@@ -13,8 +13,6 @@ class Ttt < Formula
     url :stable
   end
 
-  bottle :unneeded
-
   depends_on "python@3.9"
 
   resource "argh" do
