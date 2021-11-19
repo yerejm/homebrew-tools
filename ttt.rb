@@ -7,7 +7,7 @@ class Ttt < Formula
   sha256 "2a84fb969c46276d2ed29674a0f829c06519c8ac55ce152ee8819a2a3b363db5"
   license "ISCL"
   head "https://github.com/yerejm/ttt.git"
-  revision 1
+  revision 2
 
   livecheck do
     url :stable
