@@ -13,7 +13,7 @@ class Ttt < Formula
     url :stable
   end
 
-  depends_on "python@3.9"
+  depends_on "python@3.10"
 
   resource "argh" do
     url "https://files.pythonhosted.org/packages/e3/75/1183b5d1663a66aebb2c184e0398724b624cecd4f4b679cb6e25de97ed15/argh-0.26.2.tar.gz"
